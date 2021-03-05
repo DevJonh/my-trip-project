@@ -3,8 +3,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
   max-width: var(--container);
   margin: auto;
-  padding: 0 2%;
-  margin-bottom: 4%;
+  padding: 0 2% 4%;
 `
 export const Content = styled.div`
   display: flex;
@@ -12,6 +11,8 @@ export const Content = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+  max-width: 70%;
+  margin: auto;
 `
 export const Heading = styled.h1`
   font-size: var(--large);

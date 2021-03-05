@@ -42,5 +42,14 @@ const GlobalStyle = createGlobalStyle`
     color: var(--highlight);
     text-decoration: none
   }
+
+  @media (max-width: 768px){
+    :root{
+      --large: 3.5rem;
+    }
+    html{
+      font-size: 55%
+    }
+  }
 `
 export default GlobalStyle

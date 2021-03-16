@@ -1,13 +1,13 @@
 <h1 align="center">My Trip Project</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/DevJonh/marvelquiz-base?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/DevJonh/my-trip-project?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/DevJonh/marvelquiz-base?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/DevJonh/my-trip-project?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/DevJonh/marvelquiz-base?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/DevJonh/my-trip-project?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/DevJonh/marvelquiz-base?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/DevJonh/my-trip-project?color=56BEB8">
 </p>
 
 <p align="center">

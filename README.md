@@ -50,9 +50,6 @@ $ yarn dev
 
 Caso escolha o GraphCMS terá que modificar o arquivo **client.ts** que se encontra **src/graphql/client.ts** e preenche-lo com os dados necessário para conexão.
 
-
-Feito por <a href="https://github.com/DevJonh" target="_blank">Jônatas Senna</a>
-
 &#xa0;
 
 ## Comandos
@@ -65,5 +62,7 @@ Feito por <a href="https://github.com/DevJonh" target="_blank">Jônatas Senna</a
 - `test:watch`: roda o jest em modo de observador
 - `storybook`: inicia o storybook em localhost:6006
 - `build-storybook`: cria uma versão de build do storybook
+
+Feito por <a href="https://github.com/DevJonh" target="_blank">Jônatas Senna</a>
 
 <a href="#top">Back to top</a>

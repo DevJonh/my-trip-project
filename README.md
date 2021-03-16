@@ -1,38 +1,69 @@
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+<h1 align="center">My Trip Project</h1>
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/DevJonh/marvelquiz-base?color=56BEB8">
 
-## What is inside?
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/DevJonh/marvelquiz-base?color=56BEB8">
 
-This project uses lot of stuff as:
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/DevJonh/marvelquiz-base?color=56BEB8">
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [NextJS](https://nextjs.org/)
-- [Styled Components](https://styled-components.com/)
-- [Jest](https://jestjs.io/)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Husky](https://github.com/typicode/husky)
+  <img alt="License" src="https://img.shields.io/github/license/DevJonh/marvelquiz-base?color=56BEB8">
+</p>
 
-## Getting Started
+<p align="center">
+  <a href="#dart-about">Sobre</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requisitos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Comandos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Começando</a> &#xa0;
+</p>
 
-@@ -14,6 +30,17 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Commands
+## Sobre
 
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
+Projeto marcar em um mapa locais que já visitei e locais que eu gostaria de visitar. Utilizando tecnologias como React, Nextjs, Leaflet.
+No backend foi utilizado o [GraphCMS](https://graphcms.com/), para utilizar bastar criar uma conta.
 
-## Learn More
+## Requisitos
 
-To learn more about Next.js, take a look at the following resources:
+Antes de iniciar, você precisará ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua máquina
+
+## Começando
+
+```bash
+# Clone este projeto
+$ git clone hhttps://github.com/DevJonh/my-trip-project.git
+
+# Acesse
+$ cd marvelquiz
+
+# Instalação das dependências
+$ yarn
+
+# Inicie o projeto
+$ yarn dev
+
+# O servidor inicializará em: http://localhost:3000
+```
+
+**Para conseguir utilizar você precisará de um backend que pode ser o GraphsCMS**
+
+Caso escolha o GraphCMS terá que modificar o arquivo **client.ts** que se encontra **src/graphql/client.ts** e preenche-lo com os dados necessário para conexão.
+
+
+Feito por <a href="https://github.com/DevJonh" target="_blank">Jônatas Senna</a>
+
+&#xa0;
+
+## Comandos
+
+- `dev`: inicia sua aplicação em localhost:3000
+- `build`: cria uma versão de build para produção
+- `start`: inicia um servidor com o código que foi gerado para produção
+- `lint`: roda o linter em todos os components e páginas
+- `test`: roda os testes em todos os componentes e páginas
+- `test:watch`: roda o jest em modo de observador
+- `storybook`: inicia o storybook em localhost:6006
+- `build-storybook`: cria uma versão de build do storybook
+
+<a href="#top">Back to top</a>

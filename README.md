@@ -32,7 +32,7 @@ Antes de iniciar, você precisará ter o [Git](https://git-scm.com) e o [Node](h
 
 ```bash
 # Clone este projeto
-$ git clone hhttps://github.com/DevJonh/my-trip-project.git
+$ git clone https://github.com/DevJonh/my-trip-project.git
 
 # Acesse
 $ cd marvelquiz
